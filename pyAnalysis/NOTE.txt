@@ -1,0 +1,23 @@
+=================================
+Hhonds_analysis
+
+1. Use P1_Hbond_E1ATP.ipynb to extract interdomain Hbond in E1-ATP state.
+2. Use P2_Hbond_E2P.ipynb to extract interdomain Hbond in E2P state.
+3. Use P3_Hbond_concat.ipynb to summarize data.
+4. Use Interactions_of_TMs.R in RStudio to plot.
+
+=================================
+Maintain rotation
+
+!! the models of SPCA1a in E1ATP and E2P states would be added when released
+
+Models used in this analysis are aligned over TM7-10 in chimeraX
+
+1. Run P1_mainChain.ipynb
+2. Use mainchain_plot.R in RStudio to plot.
+
+=================================
+Alignment_adjust
+
+Run align_adjust.py
+
